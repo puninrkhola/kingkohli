@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Article</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body style="font-family: 'Poppins', sans-serif;">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-primary fs-4" href="#">🌍 Wanderly Journal</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link px-3 text-primary" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link px-3 text-primary" href="#">Destinations</a></li>
+        <li class="nav-item"><a class="nav-link px-3 text-primary" href="#">About</a></li>
+        <!-- Dark Mode Toggle -->
+        <li class="nav-item">
+          <button id="darkModeToggle" class="btn btn-outline-secondary btn-sm">Switch to Dark Mode</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Image -->
+<div class="hero-image text-center my-4">
+  <img src="iam here to rule.jpeg" alt="King" class="img-fluid hero-img">
+</div>
+
+<!-- Main Content + Sidebars Layout -->
+<div class="container">
+  <div class="row">
+    <!-- Left Sidebar -->
+    <div class="col-lg-3 order-2 order-lg-1">
+      <div class="sidebar-box mb-4">
+        <h4>Sports Categories</h4>
+        <ul>
+          <li><a href="#">🏏 Cricket</a></li>
+          <li><a href="#">⚽ Football</a></li>
+          <li><a href="#">🏀 Basketball</a></li>
+          <li><a href="#">🎾 Tennis</a></li>
+          <li><a href="#">🏑 Hockey</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-box mb-4">
+        <h4>Other Cricketers</h4>
+        <ul>
+          <li><a href="#">MS Dhoni</a></li>
+          <li><a href="#">Rohit Sharma</a></li>
+          <li><a href="#">Sachin Tendulkar</a></li>
+          <li><a href="#">Shubman Gill</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-box sidebar-sports mb-4">
+        <h4>Other Sports</h4>
+        <ul>
+          <li><a href="#">Cricket</a></li>
+          <li><a href="#">Football</a></li>
+          <li><a href="#">Basketball</a></li>
+          <li><a href="#">Tennis</a></li>
+          <li><a href="#">Kabaddi</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-box sidebar-highlight mb-4">
+        <h4>Player of the Month</h4>
+        <ul>
+          <li><a href="#">Shubman Gill – April 2025</a></li>
+          <li><a href="#">Smriti Mandhana – March 2025</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="col-lg-6 order-1 order-lg-2 content-area">
+      <h2 class="fw-bold"> Virat Kohli</h2>
+      <p class="text-muted">India Tour – December 2023</p>
+      <a href="#" class="btn btn-outline-primary btn-sm mb-3">Read More</a>
+
+      <article>
+        <h3>Introduction</h3>
+        <p>Virat Kohli is widely regarded as one of the greatest cricketers of the modern era. His aggressive playing style, unmatched consistency, and fierce determination have made him a fan favorite around the world.</p>
+
+        <h3>Career Highlights</h3>
+        <p>Since making his debut in 2008, Kohli has achieved numerous milestones. He was part of the 2011 World Cup-winning squad, and he holds records for being the fastest to score 8,000, 9,000, and 10,000 ODI runs. His ability to chase down targets under pressure has earned him the nickname "Chase Master."</p>
+
+        <h3>Leadership and Impact</h3>
+        <p>As captain, Kohli led India to significant Test victories overseas and built a fitness-driven, aggressive cricket culture. Under his leadership, the team developed a winning mindset, especially in Test cricket, where India became a dominant force.</p>
+
+        <h3>Legacy</h3>
+        <p>Virat Kohli’s influence goes beyond numbers. He inspired a generation of young cricketers with his discipline, intensity, and professionalism. His legacy is not just in runs but in how he changed the outlook of Indian cricket.</p>
+      </article>
+
+      <!-- Comments Section -->
+      <div class="mt-5">
+        <h5>COMMENTS</h5>
+        <form>
+          <div class="mb-3">
+            <textarea class="form-control comment-box" placeholder="Leave a comment..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Right Sidebar -->
+    <div class="col-lg-3 order-3">
+      <div class="sidebar-box mb-4">
+        <h4>Cricket News</h4>
+        <ul>
+          <li><a href="#">Asia Cup Updates</a></li>
+          <li><a href="#">IPL Auctions 2025</a></li>
+          <li><a href="#">India vs Australia</a></li>
+          <li><a href="#">World Cup Stats</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-box mb-4">
+        <h4>Player of the Month</h4>
+        <ul>
+          <li><a href="#">Virat Kohli – Century vs NZ</a></li>
+          <li><a href="#">Messi – World Cup Qualifier</a></li>
+          <li><a href="#">LeBron James – 30 pts avg</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-box sidebar-sports mb-4">
+        <h4>Trending Cricket News</h4>
+        <ul>
+          <li><a href="#">India vs Australia Highlights</a></li>
+          <li><a href="#">Kohli hits 50th century</a></li>
+          <li><a href="#">BCCI’s new fitness rule</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-box sidebar-highlight mb-4">
+        <h4>Upcoming Matches</h4>
+        <ul>
+          <li><a href="#">India vs England – May 15</a></li>
+          <li><a href="#">RCB vs MI – May 20</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-box mb-4">
+        <h4>Fan Zone</h4>
+        <ul>
+          <li><a href="#">Submit Your Fan Art</a></li>
+          <li><a href="#">Vote for MVP</a></li>
+          <li><a href="#">Join Live Quiz</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Light/Dark Mode Toggle Script -->
+<script>
+  // Light/Dark Mode Toggle Script
+  const darkModeToggle = document.getElementById('darkModeToggle');
+
+  darkModeToggle.addEventListener('click', () => {
+    // Toggle dark mode on body and other sections
+    document.body.classList.toggle('dark-mode');
+    document.querySelector('.hero-image').classList.toggle('dark-mode');
+    document.querySelectorAll('.sidebar-box').forEach(box => box.classList.toggle('dark-mode'));
+    document.querySelector('.content-area').classList.toggle('dark-mode');
+
+    // Navbar background and text color handling for light and dark mode
+    const navbar = document.querySelector('.navbar');
+    navbar.classList.toggle('dark-mode');
+    
+    // Toggle Bootstrap navbar light/dark classes
+    navbar.classList.toggle('navbar-light');
+    navbar.classList.toggle('navbar-dark');
+    navbar.classList.toggle('bg-white');
+    navbar.classList.toggle('bg-dark');
+
+    // Update the toggle button text
+    if (document.body.classList.contains('dark-mode')) {
+      darkModeToggle.textContent = "Switch to Light Mode";
+    } else {
+      darkModeToggle.textContent = "Switch to Dark Mode";
+    }
+  });
+</script>
+
+</body>
+</html>
